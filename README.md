@@ -1,2 +1,2 @@
-# little-lemon-meta-front-end-capsone
+# Little Lemon Meta Front-end Capsone
 Little Lemon Restaurant - Reservation
