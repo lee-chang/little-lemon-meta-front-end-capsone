@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import logo from '../assets/Logo.svg';
-import './navBar.css';
+import { useState } from "react";
+import logo from "../assets/Logo.svg";
+import "./navBar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -10,16 +10,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar ${isMenuOpen ? 'open' : ''}`}>
+    <nav className={`navbar ${isMenuOpen ? "open" : ""}`}>
       <div className="container">
         <div className="navbar-wrap">
           <div className="navbar-brand">
-            <img src={logo} alt="logo" className="navbar-logo" />
-            <h1 className="navbar-title" hidden>
-              LITTLE LEMON
-            </h1>
+            <a href="/">
+              <img src={logo} alt="logo" className="navbar-logo" />
+              <h1 className="navbar-title" hidden>
+                LITTLE LEMON
+              </h1>
+            </a>
           </div>
-          <div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
+          <div className={`navbar-menu ${isMenuOpen ? "open" : ""}`}>
             <button className="menu-toggle" onClick={handleMenuToggle}>
               <span></span>
               <span></span>
@@ -27,7 +29,7 @@ const Navbar = () => {
             </button>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="#about">About</a>

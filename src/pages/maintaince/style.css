@@ -1,0 +1,33 @@
+
+.maintaince-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.maintaince-page-wrap {
+  text-align: center;
+}
+
+.maintaince-page-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.maintaince-page-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #495e57; /* Color del título, ajusta según tus preferencias */
+}
+
+.maintaince-page-icon img {
+  width: 100%;
+  max-width: 200px; /* Ajusta según tus necesidades */
+  margin: 20px 0;
+}
+
+.maintaince-page-text {
+  font-size: 2rem;
+  color: #495e57; /* Color del texto, ajusta según tus preferencias */
+}

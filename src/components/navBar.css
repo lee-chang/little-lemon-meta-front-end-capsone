@@ -34,10 +34,8 @@
   margin-left: 1rem;
  }
  
- .navbar-  {
-  text-decoration: none;
-  color: #000000;
-  font-size: 0.97rem;
+ .navbar  {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.313);
  }
 
  .navbar-link-dark {
@@ -61,7 +59,7 @@
   display: block;
   width: 30px;
   height: 3px;
-  background-color: #000;
+  background-color: #000000;
   margin: 6px 0;
   transition: 0.4s;
 }

@@ -1,0 +1,142 @@
+
+/* Estilos para ReservationPage */
+.reservation-page {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #f4ce14;
+}
+
+.reservation-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+/* Estilos para ReservationForm */
+.reservation-form {
+  max-width: 50%;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reservation-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #495e57;
+  width: 100%;
+}
+
+.reservation-form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.reservation-form label {
+  width: 48%; /* Dos columnas, con espacio entre ellas */
+  margin-bottom: 10px;
+}
+
+.label-full {
+  width: 100% !important; /* Una columna */
+}
+
+.reservation-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.reservation-form button {
+  background-color: #495e57;
+  border: none;
+  border-radius: 30px;
+  color: #edefee !important;
+  cursor: pointer;
+  max-width: fit-content;
+
+  padding: 15px 30px;
+  transition: background 0.15s ease-in;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #f4ce14;
+  color: black;
+}
+
+/* Estilos para ReservationList */
+.reservation-list {
+  margin: 20px;
+  width: 50%;
+}
+
+.reservation-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para ReservationCard */
+.reservation-card {
+  max-width: 200px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.reservation-details {
+  margin-top: 10px;
+}
+
+/* Estilos adicionales según tus necesidades */
+
+
+/* Reglas de medios para dispositivos más pequeños */
+@media (max-width: 600px) {
+  .reservation-form,
+  form,
+  label {
+    width: 100%; /* Cambia a una columna en dispositivos más pequeños */
+  }
+}
