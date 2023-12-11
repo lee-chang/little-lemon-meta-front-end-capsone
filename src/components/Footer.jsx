@@ -42,7 +42,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/littlelemonmoon/" target="_blank" rel="noreferrer">
             <img src={iconinstagram} alt="Instagram" />
           </a>
-          <a href="https://www.youtube.com/watch?v=3Li-FfypZYE" target="_blank" rel="noreferrer">
+          <a href="https://www.tiktok.com/@littlelemonmoon" target="_blank" rel="noreferrer">
             <img src={icontiktok} alt="TikTok" />
           </a>
         </div>
